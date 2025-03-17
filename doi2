@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# do all large problems (requires about 256GB of RAM)
+
+./test_iter         ../MM/ND/nd3k/nd3k.lagraph
+./test_iter         ../MM/ND/nd24k/nd24k.lagraph
+./test_iter         ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+./test_iter         ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+./test_iter         ../MM/Freescale/Freescale2/Freescale2.lagraph
+./test_iter         ../MM/LAW/indochina-2004/indochina-2004.lagraph
+./test_iter         ../MM/SNAP/com-Orkut/com-Orkut.lagraph
+./test_iter         ../MM/GAP/GAP-road/GAP-road.lagraph
+./test_iter         ../MM/GAP/GAP-twitter/GAP-twitter.lagraph
+./test_iter         ../MM/GAP/GAP-web/GAP-web.lagraph
+./test_iter         ../MM/GAP/GAP-urand/GAP-urand.lagraph
+./test_iter         ../MM/GAP/GAP-kron/GAP-kron.lagraph
+

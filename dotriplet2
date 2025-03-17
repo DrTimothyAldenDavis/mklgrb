@@ -1,0 +1,9 @@
+#!/bin/sh
+
+./mtx_to_triplet ../MM/GAP/GAP-kron/GAP-kron_sources.mtx
+./mtx_to_triplet ../MM/GAP/GAP-road/GAP-road_sources.mtx
+./mtx_to_triplet ../MM/GAP/GAP-twitter/GAP-twitter_sources.mtx
+./mtx_to_triplet ../MM/GAP/GAP-urand/GAP-urand_sources.mtx
+./mtx_to_triplet ../MM/GAP/GAP-web/GAP-web_sources.mtx
+./mtx_to_triplet ../MM/SNAP/com-LiveJournal/com-LiveJournal.mtx
+

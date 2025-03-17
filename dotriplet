@@ -1,0 +1,26 @@
+#!/bin/sh
+
+./mtx_to_triplet ../MM/Newman/karate/karate.mtx
+
+./mtx_to_triplet ../MM/ND/nd3k/nd3k.mtx
+./mtx_to_triplet ../MM/ND/nd6k/nd6k.mtx
+./mtx_to_triplet ../MM/ND/nd12k/nd12k.mtx
+./mtx_to_triplet ../MM/ND/nd24k/nd24k.mtx
+
+./mtx_to_triplet ../MM/Freescale/Freescale2/Freescale2.mtx
+./mtx_to_triplet ../MM/LAW/indochina-2004/indochina-2004.mtx
+
+./mtx_to_triplet ../MM/SNAP/com-Amazon/com-Amazon.mtx
+./mtx_to_triplet ../MM/SNAP/com-Orkut/com-Orkut.mtx
+./mtx_to_triplet ../MM/SNAP/com-Youtube/com-Youtube.mtx
+./mtx_to_triplet ../MM/SNAP/roadNet-CA/roadNet-CA.mtx
+./mtx_to_triplet ../MM/SNAP/roadNet-PA/roadNet-PA.mtx
+./mtx_to_triplet ../MM/SNAP/roadNet-TX/roadNet-TX.mtx
+./mtx_to_triplet ../MM/SNAP/soc-Pokec/soc-Pokec.mtx
+
+./mtx_to_triplet ../MM/GAP/GAP-road/GAP-road.mtx
+./mtx_to_triplet ../MM/GAP/GAP-twitter/GAP-twitter.mtx
+./mtx_to_triplet ../MM/GAP/GAP-web/GAP-web.mtx
+./mtx_to_triplet ../MM/GAP/GAP-kron/GAP-kron.mtx
+./mtx_to_triplet ../MM/GAP/GAP-urand/GAP-urand.mtx
+

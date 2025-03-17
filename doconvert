@@ -1,0 +1,19 @@
+#!/bin/sh
+
+./mtxconvert ../MM/ND/nd3k/nd3k.mtx
+./mtxconvert ../MM/ND/nd6k/nd6k.mtx
+./mtxconvert ../MM/ND/nd6k/nd6k.mtx
+./mtxconvert ../MM/ND/nd12k/nd12k.mtx
+./mtxconvert ../MM/ND/nd24k/nd24k.mtx
+
+./mtxconvert ../MM/Freescale/Freescale2/Freescale2.mtx
+./mtxconvert ../MM/LAW/indochina-2004/indochina-2004.mtx
+
+./mtxconvert ../MM/SNAP/com-Orkut/com-Orkut.mtx
+./mtxconvert ../MM/SNAP/roadNet-CA/roadNet-CA.mtx
+./mtxconvert ../MM/SNAP/soc-Pokec/soc-Pokec.mtx
+./mtxconvert ../MM/GAP/GAP-road/GAP-road.mtx
+./mtxconvert ../MM/GAP/GAP-twitter/GAP-twitter.mtx
+./mtxconvert ../MM/GAP/GAP-web/GAP-web.mtx
+./mtxconvert ../MM/GAP/GAP-kron/GAP-kron.mtx
+./mtxconvert ../MM/GAP/GAP-urand/GAP-urand.mtx

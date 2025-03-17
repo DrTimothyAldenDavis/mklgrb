@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+
+valgrind --leak-check=full  --show-leak-kinds=all ./mklgrb      ../MM/Newman/karate/karate.lagraph
+valgrind --leak-check=full  --show-leak-kinds=all ./mklgrb_add  ../MM/Newman/karate/karate.lagraph
+valgrind --leak-check=full  --show-leak-kinds=all ./mklgrb_sp2m ../MM/Newman/karate/karate.lagraph 1
+valgrind --leak-check=full  --show-leak-kinds=all ./mklgrb_sypr ../MM/Newman/karate/karate.lagraph

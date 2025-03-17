@@ -1,0 +1,7 @@
+#!/bin/sh
+
+
+./mklgrb      ../MM/Newman/karate/karate.lagraph
+./mklgrb_add  ../MM/Newman/karate/karate.lagraph
+./mklgrb_sp2m ../MM/Newman/karate/karate.lagraph
+./mklgrb_sypr ../MM/Newman/karate/karate.lagraph

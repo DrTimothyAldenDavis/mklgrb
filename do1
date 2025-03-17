@@ -1,0 +1,10 @@
+#!/bin/sh
+
+./mklgrb_spmmd      ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_transpose  ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb            ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_add        ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_sp2m       ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_square     ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_sypr       ../MM/ND/nd3k/nd3k.lagraph
+

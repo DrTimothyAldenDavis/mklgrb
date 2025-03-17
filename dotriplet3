@@ -1,0 +1,6 @@
+#!/bin/sh
+./lagraph_to_triplet ../MM/Newman/karate/karate.lagraph /raid/MM/karate.triplet
+./lagraph_to_triplet ../MM/ND/nd3k/nd3k.lagraph /raid/MM/nd3k.triplet
+./lagraph_to_triplet ../MM/GAP/GAP-kron/GAP-kron.lagraph /raid/MM/GAP-kron.triplet
+./lagraph_to_triplet ../MM/GAP/GAP-urand/GAP-urand.lagraph /raid/MM/GAP-urand.triplet
+

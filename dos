@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# do all small problems (OK on a laptop with 16GB RAM)
+
+./mklgrb_sp2m ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_sp2m ../MM/ND/nd24k/nd24k.lagraph
+./mklgrb_sp2m ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+./mklgrb_sp2m ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+./mklgrb_sp2m ../MM/Freescale/Freescale2/Freescale2.lagraph
+./mklgrb_sp2m ../MM/LAW/indochina-2004/indochina-2004.lagraph
+./mklgrb_sp2m ../MM/SNAP/com-Orkut/com-Orkut.lagraph

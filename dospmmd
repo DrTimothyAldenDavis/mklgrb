@@ -1,0 +1,15 @@
+#!/bin/sh
+
+./mklgrb_spmmd      ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_spmmd      ../MM/ND/nd24k/nd24k.lagraph
+./mklgrb_spmmd      ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+./mklgrb_spmmd      ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+./mklgrb_spmmd      ../MM/Freescale/Freescale2/Freescale2.lagraph
+./mklgrb_spmmd      ../MM/LAW/indochina-2004/indochina-2004.lagraph
+./mklgrb_spmmd      ../MM/SNAP/com-Orkut/com-Orkut.lagraph
+
+./mklgrb_spmmd      ../MM/GAP/GAP-road/GAP-road.lagraph
+./mklgrb_spmmd      ../MM/GAP/GAP-twitter/GAP-twitter.lagraph
+./mklgrb_spmmd      ../MM/GAP/GAP-web/GAP-web.lagraph
+./mklgrb_spmmd      ../MM/GAP/GAP-urand/GAP-urand.lagraph
+./mklgrb_spmmd      ../MM/GAP/GAP-kron/GAP-kron.lagraph

@@ -1,0 +1,82 @@
+#!/bin/sh
+
+# do all large problems (requires about 256GB of RAM)
+
+./mklgrb            ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_sp2m       ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_spmmd      ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_transpose  ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_add        ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_sypr       ../MM/ND/nd3k/nd3k.lagraph
+./mklgrb_square     ../MM/ND/nd3k/nd3k.lagraph
+
+./mklgrb            ../MM/ND/nd24k/nd24k.lagraph
+./mklgrb_sp2m       ../MM/ND/nd24k/nd24k.lagraph
+./mklgrb_spmmd      ../MM/ND/nd24k/nd24k.lagraph
+./mklgrb_transpose  ../MM/ND/nd24k/nd24k.lagraph
+./mklgrb_add        ../MM/ND/nd24k/nd24k.lagraph
+./mklgrb_sypr       ../MM/ND/nd24k/nd24k.lagraph
+./mklgrb_square     ../MM/ND/nd24k/nd24k.lagraph
+
+./mklgrb            ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+./mklgrb_sp2m       ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+./mklgrb_spmmd      ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+./mklgrb_transpose  ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+./mklgrb_add        ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+./mklgrb_sypr       ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+
+./mklgrb            ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+./mklgrb_sp2m       ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+./mklgrb_spmmd      ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+./mklgrb_transpose  ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+./mklgrb_add        ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+./mklgrb_sypr       ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+
+./mklgrb            ../MM/Freescale/Freescale2/Freescale2.lagraph
+./mklgrb_sp2m       ../MM/Freescale/Freescale2/Freescale2.lagraph
+./mklgrb_spmmd      ../MM/Freescale/Freescale2/Freescale2.lagraph
+./mklgrb_transpose  ../MM/Freescale/Freescale2/Freescale2.lagraph
+./mklgrb_add        ../MM/Freescale/Freescale2/Freescale2.lagraph
+./mklgrb_sypr       ../MM/Freescale/Freescale2/Freescale2.lagraph
+
+./mklgrb            ../MM/LAW/indochina-2004/indochina-2004.lagraph
+./mklgrb_sp2m       ../MM/LAW/indochina-2004/indochina-2004.lagraph
+./mklgrb_spmmd      ../MM/LAW/indochina-2004/indochina-2004.lagraph
+./mklgrb_transpose  ../MM/LAW/indochina-2004/indochina-2004.lagraph
+./mklgrb_add        ../MM/LAW/indochina-2004/indochina-2004.lagraph
+./mklgrb_sypr       ../MM/LAW/indochina-2004/indochina-2004.lagraph
+
+./mklgrb            ../MM/SNAP/com-Orkut/com-Orkut.lagraph
+./mklgrb_sp2m       ../MM/SNAP/com-Orkut/com-Orkut.lagraph
+./mklgrb_spmmd      ../MM/SNAP/com-Orkut/com-Orkut.lagraph
+./mklgrb_transpose  ../MM/SNAP/com-Orkut/com-Orkut.lagraph
+./mklgrb_add        ../MM/SNAP/com-Orkut/com-Orkut.lagraph
+./mklgrb_sypr       ../MM/SNAP/com-Orkut/com-Orkut.lagraph
+
+./mklgrb            ../MM/GAP/GAP-road/GAP-road.lagraph
+./mklgrb_sp2m       ../MM/GAP/GAP-road/GAP-road.lagraph
+./mklgrb_spmmd      ../MM/GAP/GAP-road/GAP-road.lagraph
+./mklgrb_transpose  ../MM/GAP/GAP-road/GAP-road.lagraph
+./mklgrb_add        ../MM/GAP/GAP-road/GAP-road.lagraph
+./mklgrb_sypr       ../MM/GAP/GAP-road/GAP-road.lagraph
+
+./mklgrb            ../MM/GAP/GAP-twitter/GAP-twitter.lagraph
+./mklgrb_sp2m       ../MM/GAP/GAP-twitter/GAP-twitter.lagraph
+./mklgrb_spmmd      ../MM/GAP/GAP-twitter/GAP-twitter.lagraph
+./mklgrb_transpose  ../MM/GAP/GAP-twitter/GAP-twitter.lagraph
+./mklgrb_add        ../MM/GAP/GAP-twitter/GAP-twitter.lagraph
+./mklgrb_sypr       ../MM/GAP/GAP-twitter/GAP-twitter.lagraph
+
+./mklgrb            ../MM/GAP/GAP-web/GAP-web.lagraph
+./mklgrb_sp2m       ../MM/GAP/GAP-web/GAP-web.lagraph
+./mklgrb_spmmd      ../MM/GAP/GAP-web/GAP-web.lagraph
+./mklgrb_transpose  ../MM/GAP/GAP-web/GAP-web.lagraph
+
+./mklgrb            ../MM/GAP/GAP-urand/GAP-urand.lagraph
+./mklgrb_sp2m       ../MM/GAP/GAP-urand/GAP-urand.lagraph
+./mklgrb_spmmd      ../MM/GAP/GAP-urand/GAP-urand.lagraph
+
+./mklgrb            ../MM/GAP/GAP-kron/GAP-kron.lagraph
+./mklgrb_sp2m       ../MM/GAP/GAP-kron/GAP-kron.lagraph
+./mklgrb_spmmd      ../MM/GAP/GAP-kron/GAP-kron.lagraph
+

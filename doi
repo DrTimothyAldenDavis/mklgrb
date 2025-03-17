@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# do all small problems (OK on a laptop with 16GB RAM)
+
+./test_iter         ../MM/ND/nd3k/nd3k.lagraph
+./test_iter         ../MM/ND/nd24k/nd24k.lagraph
+./test_iter         ../MM/SNAP/roadNet-CA/roadNet-CA.lagraph
+./test_iter         ../MM/SNAP/soc-Pokec/soc-Pokec.lagraph
+./test_iter         ../MM/Freescale/Freescale2/Freescale2.lagraph
+./test_iter         ../MM/LAW/indochina-2004/indochina-2004.lagraph
+./test_iter         ../MM/SNAP/com-Orkut/com-Orkut.lagraph
+
